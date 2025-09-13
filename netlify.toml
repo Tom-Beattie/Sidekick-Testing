@@ -5,7 +5,7 @@
 [build.environment]
   NODE_VERSION = "18"
 
-# Vite/SPA history fallback
+# SPA history fallback - redirect all routes to index.html
 [[redirects]]
   from = "/*"
   to = "/index.html"
